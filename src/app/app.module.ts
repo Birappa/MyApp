@@ -14,6 +14,11 @@ import {TokenInterceptor} from "./core/interceptor";
 import { ApiService } from './core/api.service';
 import { routing } from './app.routing';
 import { NavComponent } from './nav/nav.component';
+import { CarouselComponent } from './carousel/carousel.component';
+import { FooterComponent } from './footer/footer.component';
+import { HomeComponent } from './home/home.component';
+import { SignupComponent } from './signup/signup.component';
+import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 
 @NgModule({
   declarations: [
@@ -22,14 +27,19 @@ import { NavComponent } from './nav/nav.component';
     AddUserComponent,
     EditUserComponent,
     ListUserComponent,
-    NavComponent
+    NavComponent,
+    CarouselComponent,
+    FooterComponent,
+    HomeComponent,
+    SignupComponent
   ],
   imports: [
     BrowserModule,
     AppRoutingModule,
     routing,
     ReactiveFormsModule,
-    HttpClientModule
+    HttpClientModule,
+    BrowserAnimationsModule
   ],
   providers: [ApiService, {provide: HTTP_INTERCEPTORS,
     useClass: TokenInterceptor,

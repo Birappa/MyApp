@@ -1,38 +1,24 @@
-<!-- <header>
-  <div class="container">
-    <a routerLink="/" class="logo">makemytrip</a>
-    <nav>
-      <ul>
-        <li><a routerLink="/">Home</a></li>
-        <li><a routerLink="/about">About</a></li>
-        <li><a routerLink="/contact">Contact us</a></li>
-      </ul>
-    </nav>
-  </div>
-</header> -->
-
-<head>
-<meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/js/bootstrap.min.js"></script>
-</head>
-
-<nav class="navbar navbar-inverse">
-  <div class="container-fluid">
-    <div class="navbar-header">
-      <a class="navbar-brand" href="#">MakeMyTrip</a>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="topnav" id="myTopnav">
+  <div class="navbar-header">
+      <a class="navbar-brand" routerLink='/home'>MakeMyTrip</a>
     </div>
-    <ul class="nav navbar-nav ">
-      <li class="active"><a href="#">Home</a></li>
-      <li><a href="#">Page 1</a></li>
-      <li><a href="#">Page 2</a></li>
-    </ul>
-    <ul class="nav navbar-nav navbar-right" >
-      <li ><a href="#" ><span class="glyphicon glyphicon-user"></span> Sign Up</a></li>
-      <li ><a href="#" ><span class="glyphicon glyphicon-log-in"></span> Login</a></li>
-    </ul>
-  </div>
-</nav>
+  <a routerLink='/home' class="active">Home</a>
+  <a routerLink='/home'>Flight</a>
+  <a href="#contact">Contact</a>
+  <a href="#about">About</a>
 
+  <a id="signout" class="right" (click)='signout()'><span class="glyphicon glyphicon-log-out"></span> Sign Out</a>
+  <a id="username" class="right">Welcome {{username}}</a>
+  
+  <a id="signup" routerLink='/signup' class="right"><span class="glyphicon glyphicon-user"></span> Sign Up</a>
+  <a id="signin" class="right" routerLink='/login'><span class="glyphicon glyphicon-log-in"></span> Sign In</a>
+  <a href="javascript:void(0);" class="icon" (click)="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+
+ 

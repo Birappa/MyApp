@@ -8,10 +8,14 @@ import {ApiResponse} from "../model/api.response";
 export class ApiService {
 
   constructor(private http: HttpClient) { }
-  baseUrl: string = 'http://localhost:8080/users/';
+  baseUrl: string = 'http://localhost:8000/makemytrip/users/';
 
   login(loginPayload) : Observable<ApiResponse> {
     return this.http.post<ApiResponse>(this.baseUrl+'login', loginPayload);
+  }
+
+  signup(signupPayload) : Observable<ApiResponse> {
+    return this.http.post<ApiResponse>(this.baseUrl, signupPayload);
   }
 
   getUsers() : Observable<ApiResponse> {

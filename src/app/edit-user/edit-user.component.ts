@@ -17,7 +17,7 @@ export class EditUserComponent implements OnInit {
   constructor(private formBuilder: FormBuilder,private router: Router, private apiService: ApiService) { }
 
   ngOnInit() {
-    let userId = window.localStorage.getItem("editUserId");
+    /* let userId = window.localStorage.getItem("editUserId");
     if(!userId) {
       alert("Invalid action.")
       this.router.navigate(['list-user']);
@@ -34,7 +34,7 @@ export class EditUserComponent implements OnInit {
     this.apiService.getUserById(+userId)
       .subscribe( data => {
         this.editForm.setValue(data.result);
-      });
+      }); */
   }
 
   onSubmit() {

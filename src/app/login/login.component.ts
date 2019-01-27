@@ -19,14 +19,14 @@ export class LoginComponent implements OnInit {
       return;
     }
     const loginPayload = {
-      username: this.loginForm.controls.username.value,
+      email: this.loginForm.controls.email.value,
       password: this.loginForm.controls.password.value
     }
     this.apiService.login(loginPayload).subscribe(data => {
       debugger;
       if(data.status === 200) {
         window.localStorage.setItem('username', data.result);
-        this.router.navigate(['list-user']);
+        this.router.navigate(['/home']);
       }else {
         this.invalidLogin = true;
         alert(data.message);
@@ -37,11 +37,13 @@ export class LoginComponent implements OnInit {
   ngOnInit() {
     window.localStorage.removeItem('username');
     this.loginForm = this.formBuilder.group({
-      username: ['', Validators.compose([Validators.required])],
+      email: ['', Validators.compose([Validators.required])],
       password: ['', Validators.required]
     });
   }
 
-
+home(){
+  this.router.navigate(['']);
+}
 
 }

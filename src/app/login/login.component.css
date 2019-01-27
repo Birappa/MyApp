@@ -4,7 +4,13 @@
   .login-container {
     display: flex;
     flex-direction: column;
-    background-color: blanchedalmond;
+    background-color:white;
     margin: 2em auto auto;
+    z-index: 1;
+    box-shadow:15px 15px 25px #f1f1f1;
+  }
+  
+  button{
+    margin-right: 10px;
   }
   
