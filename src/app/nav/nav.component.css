@@ -36,9 +36,9 @@ body {
     display: none;
   }
 
-  .topnav .right{
+  /* .topnav .right{
       float: right;
-  }
+  } */
 
   #username #signout{
     display: none;
@@ -64,5 +64,9 @@ body {
       display: block;
       text-align: left;
     }
+  }
+  button{
+    background-color: #333;
+    border: none;
   }
   

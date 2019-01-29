@@ -13,8 +13,8 @@
   <a id="signout" class="right" (click)='signout()'><span class="glyphicon glyphicon-log-out"></span> Sign Out</a>
   <a id="username" class="right">Welcome {{username}}</a>
   
-  <a id="signup" routerLink='/signup' class="right"><span class="glyphicon glyphicon-user"></span> Sign Up</a>
-  <a id="signin" class="right" routerLink='/login'><span class="glyphicon glyphicon-log-in"></span> Sign In</a>
+  <button style="float:right" onclick="document.getElementById('id01').style.display='block'"><a id="signup" routerLink='/signup' ><span class="glyphicon glyphicon-user"></span> Sign Up</a></button>
+  <button style="float:right" onclick="document.getElementById('id01').style.display='block'"><a id="signin" routerLink='/login'><span class="glyphicon glyphicon-log-in"></span> Sign In</a></button>
   <a href="javascript:void(0);" class="icon" (click)="myFunction()">
     <i class="fa fa-bars"></i>
   </a>
