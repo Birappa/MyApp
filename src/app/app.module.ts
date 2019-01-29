@@ -9,7 +9,7 @@ import { EditUserComponent } from './edit-user/edit-user.component';
 import { ListUserComponent } from './list-user/list-user.component';
 import {HTTP_INTERCEPTORS, HttpClientModule} from "@angular/common/http";
 import {ReactiveFormsModule} from "@angular/forms";
-
+import { CarouselModule } from 'ngx-bootstrap';
 import {TokenInterceptor} from "./core/interceptor";
 import { ApiService } from './core/api.service';
 import { routing } from './app.routing';
@@ -19,6 +19,8 @@ import { FooterComponent } from './footer/footer.component';
 import { HomeComponent } from './home/home.component';
 import { SignupComponent } from './signup/signup.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
+import { NgxBootstrapSliderModule } from 'ngx-bootstrap-slider';
+import { OffersComponent } from './offers/offers.component';
 
 @NgModule({
   declarations: [
@@ -31,7 +33,9 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     CarouselComponent,
     FooterComponent,
     HomeComponent,
-    SignupComponent
+    SignupComponent,
+     
+    OffersComponent
   ],
   imports: [
     BrowserModule,
@@ -39,6 +43,8 @@ import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
     routing,
     ReactiveFormsModule,
     HttpClientModule,
+    NgxBootstrapSliderModule,
+    CarouselModule.forRoot(),
     BrowserAnimationsModule
   ],
   providers: [ApiService, {provide: HTTP_INTERCEPTORS,
