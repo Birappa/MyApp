@@ -1,0 +1,52 @@
+<html>
+<head>
+<style>
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+  margin: 20px;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 25px;
+ 
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+  margin-bottom:20px;
+
+}
+</style>
+</head>
+<body>
+
+
+
+<table>
+  <tr>
+    <th>FlightName</th>
+    <th>Departure Time</th>
+    <th>Arrival Time</th>
+    <th>Duration</th>
+    <th>Price</th>
+  </tr>
+
+    <tbody>
+      <tr *ngFor="let flight of flights">
+        <tr>
+        <td>{{flight.flightName}}</td>
+        <td>{{flight.departure}}</td>
+        <td>{{flight.arrival}}</td>
+        <td>{{flight.arrival}}-{{flight.departure}}</td>
+        <td>{{flight.price}}</td>
+        <td><button class="btn btn-success" (click)="book(flight)"> Book</button></td> 
+          
+        </tr>
+      </tbody>
+  
+    </table>
+ 

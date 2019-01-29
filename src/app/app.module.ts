@@ -21,6 +21,9 @@ import { SignupComponent } from './signup/signup.component';
 import { BrowserAnimationsModule } from '@angular/platform-browser/animations';
 import { NgxBootstrapSliderModule } from 'ngx-bootstrap-slider';
 import { OffersComponent } from './offers/offers.component';
+import { SearchComponent } from './search/search.component';
+import { ListFlightComponent } from './list-flight/list-flight.component';
+import { FlightSectionComponent } from './flight-section/flight-section.component';
 
 @NgModule({
   declarations: [
@@ -35,7 +38,13 @@ import { OffersComponent } from './offers/offers.component';
     HomeComponent,
     SignupComponent,
      
-    OffersComponent
+    OffersComponent,
+     
+    SearchComponent,
+     
+    ListFlightComponent,
+     
+    FlightSectionComponent
   ],
   imports: [
     BrowserModule,
