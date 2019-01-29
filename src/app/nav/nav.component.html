@@ -1,0 +1,24 @@
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<div class="topnav" id="myTopnav">
+  <div class="navbar-header">
+      <a class="navbar-brand" routerLink='/home'>MakeMyTrip</a>
+    </div>
+  <a routerLink='/home' class="active">Home</a>
+  <a routerLink='/search'>Flight</a>
+ 
+  <a href="#about">About</a>
+
+  <a id="signout" class="right" (click)='signout()'><span class="glyphicon glyphicon-log-out"></span> Sign Out</a>
+  <a id="username" class="right">Welcome {{username}}</a>
+  
+  <a id="signup" routerLink='/signup' class="right"><span class="glyphicon glyphicon-user"></span> Sign Up</a>
+  <a id="signin" class="right" routerLink='/login'><span class="glyphicon glyphicon-log-in"></span> Sign In</a>
+  <a href="javascript:void(0);" class="icon" (click)="myFunction()">
+    <i class="fa fa-bars"></i>
+  </a>
+</div>
+
+
+ 

@@ -1,0 +1,35 @@
+
+.img, .carousel-item{
+   margin-top: 10vh;
+   margin-bottom: 10vh;
+   border-radius: 8px;
+}
+.style{
+    text-align: center;
+    color: green; 
+    text-shadow: 1px 1px;
+}
+.top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    color: white;
+    font-size:30px;
+  }
+  .space{
+    word-spacing: 30px;
+  }
+.d-block{
+    margin-top: 5vh;
+    margin-bottom: -10vh;
+}
+.btn{
+    color: brown;
+}
+
+div.a1{
+    font-family: "Arial Black", Gadget, sans-serif;
+    color: purple;
+    } 
+
+  

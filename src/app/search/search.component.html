@@ -1,0 +1,18 @@
+<app-nav></app-nav>
+ <div class="topnav">
+    <div class="login-container">
+  <!--  <form [formGroup]="searchFlightForm" (ngSubmit)="onSubmit()" >  -->
+      <div class="form-group">
+      <input type="text" placeholder="Source"  formControlName="source">
+     &nbsp;
+      <input type="text" placeholder="Destination" formControlName="destination">
+      <button class="button" routerLink='/list-flight'><span>Search</span></button>
+      </div>
+<!-- </form>  -->
+
+</div>
+</div> 
+&nbsp;
+<app-flight-section></app-flight-section>
+<!-- <app-flight-detail></app-flight-detail> -->
+<app-footer></app-footer>

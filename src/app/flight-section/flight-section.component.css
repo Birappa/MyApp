@@ -1,0 +1,17 @@
+
+  img , .carousel-item{
+    margin-top: 10vh;
+    margin-bottom: 10vh;
+    }
+  
+    .top-left {
+    position: absolute;
+    top: 8px;
+    left: 16px;
+    color: white;
+    font-size:30px;
+    } 
+     
+    
+   
+   
