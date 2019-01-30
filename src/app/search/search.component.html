@@ -2,16 +2,26 @@
  <div class="topnav">
     <div class="login-container">
   <!--  <form [formGroup]="searchFlightForm" (ngSubmit)="onSubmit()" >  -->
-      <div class="form-group">
-      <input type="text" placeholder="Source"  formControlName="source">
+      
+         
+      <input type="text" placeholder="From"  formControlName="From">
+      
      &nbsp;
-      <input type="text" placeholder="Destination" formControlName="destination">
+    
+    
+      <input type="text" placeholder="To" formControlName="To">
+  
+     &nbsp;
+    
+     
+      <input type="text" placeholder="Departure Date " formControlName="date">
+  
       <button class="button" routerLink='/list-flight'><span>Search</span></button>
       </div>
 <!-- </form>  -->
 
 </div>
-</div> 
+ 
 &nbsp;
 <app-flight-section></app-flight-section>
 <!-- <app-flight-detail></app-flight-detail> -->
