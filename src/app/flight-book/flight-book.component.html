@@ -1,0 +1,61 @@
+<link rel='stylesheet' href='https://use.fontawesome.com/releases/v5.7.0/css/all.css' 
+integrity='sha384-lZN37f5QGtY3VHgisS14W3ExzMWZxybE1SJSEsQp9S+oqd12jhcu+A56Ebc1zFSJ' crossorigin='anonymous'>
+
+<table>
+  <tr>
+    <p>Departure &nbsp;<i class='fas fa-plane-departure' style='font-size:20px'> </i></p>  
+  </tr>
+   <tr>
+      <th>FlightName</th>
+      <th>Departure Time</th>
+      <th>Arrival Time</th>
+      <th>Duration</th>
+      <th>Price</th>
+      <th></th>  
+    </tr>
+  
+      <tbody>
+    
+          <tr>
+            <td>Air Asia</td>
+            <td>8:15</td>
+            <td>9:15</td>
+            <td>1h 00mm</td>
+            <td>2,500</td>
+           &nbsp;&nbsp; <button class="btn btn-success" (click)="book(flight)"> Book</button>
+          </tr>
+      </tbody>
+      
+      </table>
+      <!-- <mat-accordion>
+          <mat-expansion-panel>
+            <mat-expansion-panel-header>
+              <mat-panel-title>
+                Personal data
+              </mat-panel-title>
+              <mat-panel-description>
+                Type your name and age
+              </mat-panel-description>
+            </mat-expansion-panel-header>
+        
+            <mat-form-field>
+              <input matInput placeholder="First name">
+            </mat-form-field>
+        
+            <mat-form-field>
+              <input matInput placeholder="Age">
+            </mat-form-field>
+          </mat-expansion-panel>
+          <mat-expansion-panel (opened)="panelOpenState = true"
+                               (closed)="panelOpenState = false">
+            <mat-expansion-panel-header>
+              <mat-panel-title>
+                Self aware panel
+              </mat-panel-title>
+              <mat-panel-description>
+                Currently I am {{panelOpenState ? 'open' : 'closed'}}
+              </mat-panel-description>
+            </mat-expansion-panel-header>
+            <p>I'm visible because I am open</p>
+          </mat-expansion-panel>
+        </mat-accordion> -->

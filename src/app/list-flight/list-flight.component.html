@@ -1,42 +1,20 @@
-<html>
-<head>
-<style>
-table {
-  font-family: arial, sans-serif;
-  border-collapse: collapse;
-  width: 100%;
-  margin: 20px;
-}
-
-td, th {
-  border: 1px solid #dddddd;
-  text-align: left;
-  padding: 25px;
- 
-}
-
-tr:nth-child(even) {
-  background-color: #dddddd;
-  margin-bottom:20px;
-
-}
-</style>
-</head>
-<body>
-
-
-
-<table>
-  <tr>
+<link href='https://fonts.googleapis.com/css?family=Vollkorn:400,700' rel='stylesheet' type='text/css'>
+  
+  <!-- Table demo -->
+  <div class="box-table">
+  <table data-fn="contacts">
+    <thead>
+ <tr>
     <th>FlightName</th>
     <th>Departure Time</th>
     <th>Arrival Time</th>
     <th>Duration</th>
     <th>Price</th>
+    <th></th>  
   </tr>
 
     <tbody>
-      <tr *ngFor="let flight of flights">
+      <!-- <tr *ngFor="let flight of flights">
         <tr>
         <td>{{flight.flightName}}</td>
         <td>{{flight.departure}}</td>
@@ -45,8 +23,16 @@ tr:nth-child(even) {
         <td>{{flight.price}}</td>
         <td><button class="btn btn-success" (click)="book(flight)"> Book</button></td> 
           
+        </tr> -->
+        <tr>
+          <td>Air Asia</td>
+          <td>8:15</td>
+          <td>9:15</td>
+          <td>1h 00mm</td>
+          <td>2,500</td>
+         &nbsp;&nbsp; <button class="btn btn-success" (click)="book(flight)" routerLink="/review"> Book</button>
         </tr>
-      </tbody>
-  
+    </tbody>
+    
     </table>
- 
+   

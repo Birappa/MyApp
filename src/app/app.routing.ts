@@ -9,6 +9,8 @@ import { SignupComponent } from './signup/signup.component';
 import { SearchComponent } from './search/search.component';
 import { FlightSectionComponent } from './flight-section/flight-section.component';
 import { ListFlightComponent } from './list-flight/list-flight.component';
+import { FlightBookComponent} from './flight-book/flight-book.component';
+import { Component } from '@angular/core';
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -20,7 +22,9 @@ const routes: Routes = [
   { path: 'add-user', component: AddUserComponent },
   { path: 'list-user', component: ListUserComponent },
   { path: 'edit-user', component: EditUserComponent },
+  {path: 'review', component: FlightBookComponent},
   {path : '',  redirectTo: '/home', pathMatch: 'full'}
+  
 ];
 
 export const routing = RouterModule.forRoot(routes);

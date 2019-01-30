@@ -24,6 +24,7 @@ import { OffersComponent } from './offers/offers.component';
 import { SearchComponent } from './search/search.component';
 import { ListFlightComponent } from './list-flight/list-flight.component';
 import { FlightSectionComponent } from './flight-section/flight-section.component';
+import { FlightBookComponent } from './flight-book/flight-book.component';
 
 @NgModule({
   declarations: [
@@ -44,7 +45,9 @@ import { FlightSectionComponent } from './flight-section/flight-section.componen
      
     ListFlightComponent,
      
-    FlightSectionComponent
+    FlightSectionComponent,
+     
+    FlightBookComponent
   ],
   imports: [
     BrowserModule,
