@@ -4,7 +4,12 @@
 .topnav {
   overflow: hidden;
   background-color:#00264d;
+<<<<<<< HEAD
   padding:50px;
+=======
+  padding:30px;
+  color: white;
+>>>>>>> b0a8345d77c6920c79d70e7e5931026a7c037528
 }
 
 /* Navbar links */
@@ -41,6 +46,10 @@
   margin-top: 15px;
   font-size: 17px;
   border: none;
+<<<<<<< HEAD
+=======
+  
+>>>>>>> b0a8345d77c6920c79d70e7e5931026a7c037528
   width: 150px; /* adjust as needed (as long as it doesn't break the topnav) */
 }
 
@@ -59,6 +68,13 @@
 
 .topnav .login-container {
   background:#00264d;
+<<<<<<< HEAD
+=======
+  padding-left: 300px;
+  padding-top: 20px;
+  padding-bottom: 5px;
+ 
+>>>>>>> b0a8345d77c6920c79d70e7e5931026a7c037528
 }
 
 /* Add responsiveness - On small screens, display the navbar vertically instead of horizontally */
@@ -72,19 +88,34 @@
     padding: 14px;
   }
   .topnav input[type=text] {
+<<<<<<< HEAD
     border: 1px solid #ccc; 
+=======
+    border: 1px solid #ccc;
+    
+  
+>>>>>>> b0a8345d77c6920c79d70e7e5931026a7c037528
   }
 }
 
 .button {
+<<<<<<< HEAD
   border-radius: 4px;
+=======
+  border-radius: 6px;
+>>>>>>> b0a8345d77c6920c79d70e7e5931026a7c037528
   background-color: #f4511e;
   border: none;
   color: #FFFFFF;
   text-align: center;
   font-size: 20px;
+<<<<<<< HEAD
   padding: 6px;
   width: 150px;
+=======
+  padding: 5px;
+  width: 130px;
+>>>>>>> b0a8345d77c6920c79d70e7e5931026a7c037528
   transition: all 0.5s;
   cursor: pointer;
   margin: 5px;

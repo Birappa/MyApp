@@ -1,6 +1,7 @@
 
 <div id="login" class="row">
     
+<<<<<<< HEAD
   <!-- <div class="col-md-4 login-container">
     <h2 style="margin: auto;padding: 20px">Sign in to MakeMyTrip </h2> -->
     <div id="id01" class="modal">
@@ -12,6 +13,13 @@
     <div class="login-container">
       <div class="form-group">
         <!-- <label for="username">UserName:</label>  -->
+=======
+  <div class="col-md-4 login-container">
+    <h2 style="margin: auto;padding: 20px">Sign in to MakeMyTrip </h2>
+    <form [formGroup]="loginForm" (ngSubmit)="onSubmit()" >
+      <div class="form-group">
+        <!-- <label for="username">UserName:</label> -->
+>>>>>>> b0a8345d77c6920c79d70e7e5931026a7c037528
         <input type="email" class="form-control" formControlName="email" id="email" autocomplete="off" placeholder="Email">
         <div class="error" *ngIf="loginForm.controls['email'].hasError('required') && loginForm.controls['email'].touched">Email is required</div>
       </div>
@@ -20,14 +28,20 @@
         <input type="password" class="form-control" formControlName="password" id="pwd" autocomplete="off" placeholder="Password">
         <div class="error" *ngIf="loginForm.controls['password'].hasError('required') && loginForm.controls['password'].touched">Password is required</div>
       </div>
+<<<<<<< HEAD
       <div class="form-group">
       <button class="btn btn-success" [disabled]="loginForm.invalid">Sign In</button>
       <button class="btn btn-success" (click)='home()'>Cancel</button>
     
+=======
+      <button class="btn btn-success" [disabled]="loginForm.invalid">Sign In</button>
+      <button class="btn btn-success" (click)='home()'>Cancel</button>
+>>>>>>> b0a8345d77c6920c79d70e7e5931026a7c037528
       <p>New to MakeMyTrip? <a routerLink="/signup" routerLinkActive="active">Create an account</a></p>
       <div *ngIf="invalidLogin" class="error">
         <div>Invalid credentials.</div>
       </div>
+<<<<<<< HEAD
     </div>
   </div>
     </form>
@@ -35,3 +49,8 @@
 </div>
 
 <app-home></app-home>
+=======
+    </form>
+  </div>
+</div>
+>>>>>>> b0a8345d77c6920c79d70e7e5931026a7c037528

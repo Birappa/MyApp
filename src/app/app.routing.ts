@@ -9,8 +9,12 @@ import { SignupComponent } from './signup/signup.component';
 import { SearchComponent } from './search/search.component';
 import { FlightSectionComponent } from './flight-section/flight-section.component';
 import { ListFlightComponent } from './list-flight/list-flight.component';
+<<<<<<< HEAD
 import { FlightBookComponent} from './flight-book/flight-book.component';
 import { Component } from '@angular/core';
+=======
+import { AboutUsComponent} from './about-us/about-us.component';
+>>>>>>> b0a8345d77c6920c79d70e7e5931026a7c037528
 
 const routes: Routes = [
   { path: 'home', component: HomeComponent },
@@ -22,7 +26,11 @@ const routes: Routes = [
   { path: 'add-user', component: AddUserComponent },
   { path: 'list-user', component: ListUserComponent },
   { path: 'edit-user', component: EditUserComponent },
+<<<<<<< HEAD
   {path: 'review', component: FlightBookComponent},
+=======
+  {path:'aboutUs', component:AboutUsComponent},
+>>>>>>> b0a8345d77c6920c79d70e7e5931026a7c037528
   {path : '',  redirectTo: '/home', pathMatch: 'full'}
   
 ];

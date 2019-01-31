@@ -2,6 +2,12 @@ footer{
     background-color: black;
     color: white;
 }
+<<<<<<< HEAD
 body{
     position: fixed;
+=======
+p.foot{
+  
+   color: black;
+>>>>>>> b0a8345d77c6920c79d70e7e5931026a7c037528
 }

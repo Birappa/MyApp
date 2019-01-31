@@ -1,6 +1,7 @@
 .error{
     color: #FF0000;
   }
+<<<<<<< HEAD
    .login-container {
     display: flex;
     flex-direction: column;
@@ -66,3 +67,18 @@
   color: red;
   cursor: pointer;
 }
+=======
+  .login-container {
+    display: flex;
+    flex-direction: column;
+    background-color:white;
+    margin: 2em auto auto;
+    z-index: 1;
+    box-shadow:15px 15px 25px #f1f1f1;
+  }
+  
+  button{
+    margin-right: 10px;
+  }
+  
+>>>>>>> b0a8345d77c6920c79d70e7e5931026a7c037528

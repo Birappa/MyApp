@@ -1,0 +1,121 @@
+div.a{
+    margin-top: 5vh;
+    font-family: "Times New Roman", Times, serif;
+    color: rgb(16, 17, 15);
+    font-size: 50px;
+}
+p.b {
+    margin-top: 3vh;
+     margin-left: auto;
+    margin-right: auto; 
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 20px;
+    /* width: 5em; */
+    /* text-align-last:center; */
+}
+div.c{
+    margin-top: 5vh;
+    background-color: rgb(228, 241, 245);
+}
+  p.d {
+     position: absolute; 
+    left: 40%;
+    top: 25%;
+    text-align: center;
+    font-size: 30px;
+   color:  rgb(19, 18, 18);
+  }
+  p.e{
+    position: absolute; 
+    left: 20%;
+    top: 15%;
+    text-align: center;
+    font-size: 30px;
+   color:  rgb(20, 19, 19);
+  }
+  p.f{
+    position: absolute; 
+    left: 45%;
+    top: 33%;
+    text-align: center;
+    font-size: 30px;
+   color: rgb(0, 0, 0);
+  }
+ div.block-text{
+    margin-left: 45%;
+    margin-right: 0;
+  
+ }
+ div.z{
+     margin-top: 5vh;
+ }
+ 
+ div.sid{
+   margin-top:5vh;
+    margin-right: 100vh;
+    margin-left: 100vh; 
+    
+ }
+ div.run{
+    margin-top:5vh;
+    margin-right: 100vh;
+    margin-left: 100vh;
+    
+ }
+ div.jump{
+    margin-top:5vh;
+    margin-right: 100vh;
+    margin-left: 100vh;
+    
+ }
+  p.ram{
+    margin-top:-2vh;  
+     text-align: center; 
+    font-family: "Comic Sans MS", cursive, sans-serif;
+    font-size: 20px;
+    color: rgb(16, 17, 15);
+     /* margin-left: auto;
+    margin-right: auto;  */
+  }
+
+
+  div.ser{
+    margin-top: 5vh;
+    background-color: rgb(238, 213, 220);
+   
+  }
+  div.sir{
+    text-align: center;
+    font-family: "Times New Roman", Times, serif;
+    position: absolute; 
+    left: 43%;
+    top: 135%;
+    font-size: 50px;
+    color: rgb(16, 17, 15);
+  }
+  div.sam{
+    text-align: center;
+    font-family: Tahoma, Geneva, sans-serif;
+    position: absolute; 
+    left: 38%;
+    top: 145%;
+    font-size: 30px;
+    color: rgb(16, 17, 15);
+  }
+  div.l{
+    position: absolute; 
+    left: 10%;
+    top: 155%;
+  }
+  img.u{
+      margin-right: 30px;
+  }
+  div.y{
+      margin-top: 5vh;
+      margin-left: 5vh;
+    font-family: Tahoma, Geneva, sans-serif;
+    font-size: 40px;
+  }
+  p.x{
+    margin-left: 5vh;
+  }

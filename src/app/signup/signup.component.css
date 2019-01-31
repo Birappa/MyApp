@@ -5,13 +5,20 @@
   display: flex;
   flex-direction: column;
   background-color:white;
+<<<<<<< HEAD
   margin: 15px 20px 12px 20px;
   z-index: 1;
   /* box-shadow:15px 15px 25px #f1f1f1; */
+=======
+  margin: 2em auto auto;
+  z-index: 1;
+  box-shadow:15px 15px 25px #f1f1f1;
+>>>>>>> b0a8345d77c6920c79d70e7e5931026a7c037528
 }
 
 button{
   margin-right: 10px;
+<<<<<<< HEAD
   width: 20%;
 }
 /* The Modal (background) */
@@ -66,3 +73,6 @@ font-weight: bold;
 color: red;
 cursor: pointer;
 }
+=======
+}
+>>>>>>> b0a8345d77c6920c79d70e7e5931026a7c037528

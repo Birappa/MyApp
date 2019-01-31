@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 <link href='https://fonts.googleapis.com/css?family=Vollkorn:400,700' rel='stylesheet' type='text/css'>
   
   <!-- Table demo -->
@@ -15,12 +16,32 @@
 
     <tbody>
       <!-- <tr *ngFor="let flight of flights">
+=======
+
+<!--<table id="tablePreview" class="table">
+ 
+    <thead>
+      <tr class="tr">
+        <th>FlightName</th>
+            <th>Departure</th>
+            <th>Arrival</th>
+            <th>Duration</th>
+            <th>Price</th>
+            <th>Booking</th>
+      </tr>
+      &nbsp;
+    </thead>
+ 
+    <tbody>
+      <tr *ngFor="let flight of flights">
+>>>>>>> b0a8345d77c6920c79d70e7e5931026a7c037528
         <tr>
         <td>{{flight.flightName}}</td>
         <td>{{flight.departure}}</td>
         <td>{{flight.arrival}}</td>
         <td>{{flight.arrival}}-{{flight.departure}}</td>
         <td>{{flight.price}}</td>
+<<<<<<< HEAD
         <td><button class="btn btn-success" (click)="book(flight)"> Book</button></td> 
           
         </tr> -->
@@ -36,3 +57,64 @@
     
     </table>
    
+=======
+        <td align="center"><button class="btn btn-info" (click)="book(flight)">Book</button></td> 
+        </tr>
+      
+    </tbody>
+  
+  </table>-->
+  
+           
+
+  <link href='https://fonts.googleapis.com/css?family=Vollkorn:400,700' rel='stylesheet' type='text/css'>
+  
+  <!-- Table demo -->
+  <div class="box-table">
+  <table data-fn="contacts">
+    <thead>
+    <tr>
+      <th>FlightName</th>
+      <th>Departure</th>
+      <th>Arrival</th>
+      <th>Duration</th>
+      <th>Price</th>
+      <th>Booking</th>
+    </tr>
+
+    &nbsp;
+  </thead>
+  <tbody>
+    <tr *ngFor="let flight of flights">
+      <tr>
+      <td>{{flight.flightName}}</td>
+      <td>{{flight.departure}}</td>
+      <td>{{flight.arrival}}</td>
+      <td>{{flight.arrival}}-{{flight.departure}}</td>
+      <td>{{flight.price}}</td>
+      <td align="center"><button class="btn btn-danger" (click)="book(flight)">Book</button></td> 
+      </tr>
+    
+  </tbody>
+  </table>    
+  </div>
+             
+         
+
+
+
+
+
+
+
+
+      
+
+
+
+  
+
+ 
+
+ 
+>>>>>>> b0a8345d77c6920c79d70e7e5931026a7c037528
