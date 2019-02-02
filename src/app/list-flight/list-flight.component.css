@@ -1,34 +1,6 @@
-<<<<<<< HEAD
-/* table {
-    font-family: arial, sans-serif;
-    border: 1px solid #dddddd;
-    border-collapse: collapse;
-    width: 50%;
-    margin: 5%;
-  }
-  
-   td,th {
-    text-align: left;
-    padding: 15px; 
-  }
-  
-  tr:nth-child(even) {
-    background-color: #dddddd;
-    margin-bottom:20px;
-  
-  }
-  button{
-      float:right;
-  } */
-
-  
-  /* = Scroll body
-  ------------------------ 
-=======
 
   /* = Scroll body
-  ------------------------*/
->>>>>>> b0a8345d77c6920c79d70e7e5931026a7c037528
+  ------------------------
   ::-webkit-scrollbar{
     width:0.2em;
   }
@@ -37,22 +9,15 @@
   }
   ::-webkit-scrollbar-thumb{
     background-color:#7f8c8d;
-<<<<<<< HEAD
   }*/
-=======
-  }
->>>>>>> b0a8345d77c6920c79d70e7e5931026a7c037528
+  
   /* = table
   ------------------------*/
   .box-table table{
     border-collapse:collapse;
     text-align:center;
     width:100%;
-<<<<<<< HEAD
     margin:5%;
-=======
-    margin:0;
->>>>>>> b0a8345d77c6920c79d70e7e5931026a7c037528
     padding:0;
     background:white;
    
@@ -66,13 +31,10 @@
     padding:2.5%;
   }
   .box-table table thead th{
-<<<<<<< HEAD
     background-color:  #003366; 
      
     ;
-=======
     background-color: #003366;
->>>>>>> b0a8345d77c6920c79d70e7e5931026a7c037528
     color:white;
     text-align:center;
     padding: 0.75em;
@@ -166,9 +128,6 @@
       border-bottom:0;
     }
   }
-<<<<<<< HEAD
  
-=======
   
   
->>>>>>> b0a8345d77c6920c79d70e7e5931026a7c037528

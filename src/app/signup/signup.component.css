@@ -5,20 +5,13 @@
   display: flex;
   flex-direction: column;
   background-color:white;
-<<<<<<< HEAD
   margin: 15px 20px 12px 20px;
   z-index: 1;
   /* box-shadow:15px 15px 25px #f1f1f1; */
-=======
-  margin: 2em auto auto;
-  z-index: 1;
-  box-shadow:15px 15px 25px #f1f1f1;
->>>>>>> b0a8345d77c6920c79d70e7e5931026a7c037528
 }
 
 button{
   margin-right: 10px;
-<<<<<<< HEAD
   width: 20%;
 }
 /* The Modal (background) */
@@ -38,10 +31,10 @@ button{
 /* Modal Content/Box */
 .modal-content {
   background-color: #fefefe;
-  margin: 5% auto 15% auto; /* % from the top, 15% from the bottom and centered */
+  margin: 1% auto 15% auto; /* % from the top, 15% from the bottom and centered */
   border: 1px solid #888;
   width: 40%; /* Could be more or less, depending on screen size */
-  height:70%;
+  height:83%;
 }
 /* Add Zoom Animation */
 .animate {
@@ -73,6 +66,3 @@ font-weight: bold;
 color: red;
 cursor: pointer;
 }
-=======
-}
->>>>>>> b0a8345d77c6920c79d70e7e5931026a7c037528

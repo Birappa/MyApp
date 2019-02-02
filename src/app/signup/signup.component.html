@@ -2,7 +2,6 @@
 <div id="signup" class="row">
     
     <div class="col-md-4 login-container">
-<<<<<<< HEAD
      <div id="id01" class="modal">
         <form class="modal-content animate" [formGroup]="signupForm" (ngSubmit)="onSubmit()" >
         <h2 style="margin: auto;padding: 20px">Sign up to MakeMyTrip </h2>
@@ -10,10 +9,6 @@
             <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
         </div> 
         <div class="login-container">
-=======
-      <h2 style="margin: auto;padding: 20px">Sign up to MakeMyTrip </h2>
-      <form [formGroup]="signupForm" (ngSubmit)="onSubmit()" >
->>>>>>> b0a8345d77c6920c79d70e7e5931026a7c037528
         <div class="form-group">
           <input placeholder="UserName" type="text" class="form-control" formControlName="username" id="username" autocomplete="off">
           <div class="error" *ngIf="signupForm.controls['username'].hasError('required') && signupForm.controls['username'].touched">Username is required</div>
@@ -36,21 +31,14 @@
            <!--  <div *ngIf="pwdForm.errors?.doesMatchPassword" class="error">
                Password doesn't match
               </div> -->
-<<<<<<< HEAD
             </div>
         
       <div class="form-group">
-=======
-          </div>
-        
-        
->>>>>>> b0a8345d77c6920c79d70e7e5931026a7c037528
         <button class="btn btn-success" [disabled]="signupForm.invalid">Sign Up</button>
         <button class="btn btn-success" routerLink=''>Cancel</button>
         <div *ngIf="invalidSignup" class="error">
           <div>Invalid credentials.</div>
         </div>
-<<<<<<< HEAD
       
     </div>
      
@@ -60,9 +48,3 @@
   </div>
   </div>
  <app-home></app-home>
-=======
-      </form>
-    </div>
-  </div>
-  
->>>>>>> b0a8345d77c6920c79d70e7e5931026a7c037528

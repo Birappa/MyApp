@@ -24,12 +24,9 @@ import { OffersComponent } from './offers/offers.component';
 import { SearchComponent } from './search/search.component';
 import { ListFlightComponent } from './list-flight/list-flight.component';
 import { FlightSectionComponent } from './flight-section/flight-section.component';
-<<<<<<< HEAD
 import { FlightBookComponent } from './flight-book/flight-book.component';
-=======
 import { PassengerDetailsComponent } from './passenger-details/passenger-details.component';
 import {AboutUsComponent} from './about-us/about-us.component';
->>>>>>> b0a8345d77c6920c79d70e7e5931026a7c037528
 
 @NgModule({
   declarations: [
@@ -42,22 +39,14 @@ import {AboutUsComponent} from './about-us/about-us.component';
     CarouselComponent,
     FooterComponent,
     HomeComponent,
-    SignupComponent,
-     
-    OffersComponent,
-     
-    SearchComponent,
-     
-    ListFlightComponent,
-     
-    FlightSectionComponent,
-     
-<<<<<<< HEAD
-    FlightBookComponent
-=======
+    SignupComponent, 
+    OffersComponent,  
+    SearchComponent,  
+    ListFlightComponent, 
+    FlightSectionComponent, 
+    FlightBookComponent,
     PassengerDetailsComponent,
     AboutUsComponent
->>>>>>> b0a8345d77c6920c79d70e7e5931026a7c037528
   ],
   imports: [
     BrowserModule,

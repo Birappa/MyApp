@@ -28,11 +28,8 @@ body {
   }
   
   .active {
-<<<<<<< HEAD
     background-color: #4CAF50;
-=======
     background-color: #ff4d88;
->>>>>>> b0a8345d77c6920c79d70e7e5931026a7c037528
     color: white;
   }
   
@@ -40,15 +37,12 @@ body {
     display: none;
   }
 
-<<<<<<< HEAD
   /* .topnav .right{
       float: right;
   } */
-=======
   .topnav .right{
       float: right;
   }
->>>>>>> b0a8345d77c6920c79d70e7e5931026a7c037528
 
   #username #signout{
     display: none;
@@ -75,11 +69,8 @@ body {
       text-align: left;
     }
   }
-<<<<<<< HEAD
   button{
     background-color: #333;
     border: none;
   }
-=======
->>>>>>> b0a8345d77c6920c79d70e7e5931026a7c037528
   
